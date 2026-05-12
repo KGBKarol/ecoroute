@@ -105,7 +105,6 @@ Al eliminar un dato, ¿se borra físicamente el registro o se marca como elimina
 **Justificación:**
 - Permite recuperar contactos eliminados accidentalmente.
 - Conserva el historial de datos para auditoría.
-- El overhead de almacenamiento es insignificante para una agenda personal.
 - Las consultas de listado y búsqueda filtran `WHERE deleted_at IS NULL` de forma
   transparente.
 
@@ -143,8 +142,8 @@ deben estar disponibles en tiempo de ejecución sin hardcodearlas en el código.
 ```
 DB_HOST=localhost
 DB_PORT=3306
-DB_NAME=agenda_db
-DB_USER=agenda_user
+DB_NAME=ecoroute_db
+DB_USER=ecoroute_db
 DB_PASSWORD=tu_contraseña_segura
 ```
 
