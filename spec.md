@@ -63,7 +63,7 @@ La aplicación es una herramienta de línea de comandos (CLI) escrita en lenguaj
 3. El sistema le pide al usuario que introduzca el id del vehiculo a eliminar
 4. El sistema valida que el id sea correcto y exista
 5. El sistema hace la pregunta de confirmacion para saber si quiere eliminarlo
-6. Si el usuario confirma el borrado elimina el vehiculo de la BBDD
+6. Si el usuario confirma el borrado elimina el vehiculo de la BBDD con soft_delete
 7. El sistema confirma la eliminacion
 
 ### CU-03: Mostrar datos de vehiculo
@@ -103,7 +103,7 @@ La aplicación es una herramienta de línea de comandos (CLI) escrita en lenguaj
 3. El sistema le pide al usuario que introduzca el id de la entrega a eliminar
 4. El sistema valida que el id sea correcto y exista
 5. El sistema hace la pregunta de confirmacion para saber si quiere eliminarlo
-6. Si el usuario confirma el borrado elimina la entrega de la BBDD
+6. Si el usuario confirma el borrado elimina la entrega de la BBDD con soft_delete
 7. El sistema confirma la eliminacion
    
 ### CU-08 Mostrar datos de entrega
@@ -150,7 +150,7 @@ La aplicación es una herramienta de línea de comandos (CLI) escrita en lenguaj
 3. El sistema le pide al usuario que introduzca el id de la ruta a eliminar
 4. El sistema valida que el id sea correcto y exista
 5. El sistema hace la pregunta de confirmacion para saber si quiere eliminarlo
-6. Si el usuario confirma el borrado elimina la ruta de la BBDD
+6. Si el usuario confirma el borrado elimina la ruta de la BBDD con soft_delete
 7. El sistema confirma la eliminacion
   
 ### CU-13 Mostrar datos de ruta
